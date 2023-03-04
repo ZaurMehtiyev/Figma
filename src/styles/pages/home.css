@@ -1,0 +1,265 @@
+/* Section */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 31px;
+  position: relative;
+  z-index: 0;
+}
+
+.about_info h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--textcolor);
+}
+
+.about_info p {
+  color: var(--textcolorgray);
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 24px;
+}
+
+.about_info button {
+  margin-top: 39px;
+  padding: 20px 24px;
+  background-color: var(--maingreen);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s !important;
+}
+
+.about_info button:hover {
+  transform: scale(0.97);
+}
+
+.about_work {
+  position: absolute;
+  left: 273px;
+  top: 1060px;
+  text-align: center;
+}
+
+.about_work h3 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  width: 895px;
+  height: 64px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about_work p {
+  width: 895px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--textcolorgray);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin: 0 25px;
+  position: absolute;
+  top: 1248px;
+}
+
+.modwork {
+  background-color: var(--white);
+  width: 427px;
+  height: 340px;
+  border-radius: 8px;
+  box-shadow: 10%;
+  margin-right: 23px;
+  position: relative;
+}
+
+.modwork a {
+  position: absolute;
+  left: 114px;
+  top: 176px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--textcolor);
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.modwork p {
+  position: absolute;
+  top: 224px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0 24px;
+}
+
+.modwork img {
+  position: absolute;
+  left: 162px;
+  top: 64px;
+  margin-bottom: 24px;
+}
+
+.merbydes {
+  background-color: var(--white);
+  width: 427px;
+  height: 340px;
+  border-radius: 8px;
+  box-shadow: 10%;
+  margin-right: 24px;
+  position: relative;
+}
+
+.merbydes img {
+  position: absolute;
+  left: 162px;
+  top: 64px;
+  margin-bottom: 24px;
+}
+
+.merbydes a {
+  position: absolute;
+  left: 114px;
+  top: 176px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--textcolor);
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.merbydes p {
+  position: absolute;
+  top: 224px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0 24px;
+}
+
+.engforres {
+  background-color: var(--white);
+  width: 427px;
+  height: 340px;
+  border-radius: 8px;
+  box-shadow: 10%;
+  position: relative;
+}
+
+.engforres img {
+  position: absolute;
+  left: 162px;
+  top: 64px;
+  margin-bottom: 24px;
+}
+
+.engforres a {
+  position: absolute;
+  left: 78px;
+  top: 176px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--textcolor);
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.engforres p {
+  position: absolute;
+  top: 224px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0 24px;
+}
+
+/* Article */
+
+.kickstart {
+    position: absolute;
+    top: 1781px;
+    left: 56px;
+    margin-top: 193px;
+}
+
+.kickstart h4 {
+    width: 644px;
+    height: 128px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--textcolor);
+    margin-top: 24px;
+}
+
+.kickstart p {
+    width: 644px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--textcolor);
+    margin-top: 24px;
+}
+
+.members {
+    position: absolute;
+    top: 1777px;
+    left: 838px;
+    width: 484px;
+    height: 400px;
+    background-color: var(--white);
+    border-radius: 16px;
+    margin-top: 189px;
+    border: 4px solid var(--textcolor);
+}
+
+.members_in {
+    position: relative;
+}
+
+.members_in strong {
+    position: absolute;
+    width: 133px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 32px 311px 0 40px;
+}
+
+.dilon img {
+    position: absolute;
+    top: 104px;
+    left: 40px;
+}
+
+.anna {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+
+}
+
+.kas {
+    position: absolute;
+    top: 296px;
+    left: 40px;
+}

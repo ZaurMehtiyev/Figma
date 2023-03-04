@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url(./font.css);
+@import url(./variable.css);
+@import url(./responsive.css);
+@import url(./header.css);
+
+body {
+    font-family: var(--fontopensans);
+    background-color: var(--bodycolor);
+}

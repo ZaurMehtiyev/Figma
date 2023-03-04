@@ -1,0 +1,9 @@
+
+
+
+
+@media screen and (max-with:1200px) {
+    .nav_ham {
+        display: block;
+    }
+}
